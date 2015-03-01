@@ -24,7 +24,7 @@ https://github.com/mgrosvenor/libchaste
 Building
 --------
 
-To build q2pc, make sure that the symbolic link to libchaste is pointing to the right place and run ./build.sh from the root directory. 
+To build q2pc, make sure that the symbolic link to libchaste (in the deps directory) is pointing to the right place and run ./build.sh from the root directory. 
 
 To build a release version run "./build.sh --variant=release"
 
