@@ -42,7 +42,7 @@ q2pc supports the following options
 |Flag     | Boolean |-u  |--udp-ln        |  Use Linux based UDP transport [default]   |
 |Flag     | Boolean |-t  |--tcp-ln        |  Use Linux based TCP transport   |
 |Flag     | Boolean |-r  |--rdp-ln        |  Use Linux based UDP transport with reliability   |
-|Flag     | Boolean |-q  |--udp-qj        |  Use NetMap based UDP transport over Q-Jump   |
+|Flag     | Boolean |-q  |--udp-qj        |  Use broadcast based UDP transport over Q-Jump   |
 |Optional | Integer |-p  |--port          |  Port to use for all transports [7331]  |
 |Optional | String  |-B  |--broadcast     |  The broadcast IP address to use in UDP mode ini x.x.x.x format [127.0.0.0]  |
 |Optional | String  |-i  |--iface         |  The interface name to use [eth4]  |
